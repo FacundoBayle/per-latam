@@ -20,10 +20,22 @@ body {
 .main-container .main-header .main-header-title .main-title {
   color: white;
   text-align: center;
+  max-width: 230px;
+  margin: 0 auto 20px;
 }
 .main-container .main-header .main-subtitle {
   color: white;
   text-align: center;
+}
+.main-container .main-header .main-logos {
+  padding-top: 20px;
+  text-align: center;
+}
+.main-container .main-header .main-logos .logo-image {
+  margin-right: 10px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
 }
 .main-container .main-content .main-content-articles a {
   text-decoration: none;
@@ -41,9 +53,14 @@ body {
   color: white;
 }
 
+@media (min-width: 380px) {
+  .main-container .main-header .main-header-title .main-title {
+    max-width: none;
+  }
+}
 @media (min-width: 768px) {
   .main-container .main-header {
-    padding: 50px 0 20px 0;
+    padding: 50px 0 30px 0;
     border-bottom: 2px solid white;
   }
   .main-container .main-header .main-header-title {
@@ -68,6 +85,17 @@ body {
   .main-container .main-header .main-subtitle {
     font-size: 26px;
     text-align: unset;
+  }
+  .main-container .main-header .main-logos {
+    padding-top: 30px;
+  }
+  .main-container .main-header .main-logos a {
+    text-decoration: none;
+  }
+  .main-container .main-header .main-logos .logo-image {
+    margin-right: 25px;
+    width: 50px;
+    height: 50px;
   }
   .main-container .main-content .main-content-articles .article {
     padding: 30px 0;
