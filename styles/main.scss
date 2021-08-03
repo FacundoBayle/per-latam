@@ -30,6 +30,12 @@ body {
         .main-subtitle {
             color: white;
             text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .host {
+            color: white;
+            text-align: center;
         }
 
         .main-logos {
@@ -64,6 +70,21 @@ body {
                 .article-description {
                     color: white;
                 }
+            }
+        }
+
+        .main-content-podcast {
+            .podcast-title {
+                padding-top: 20px;
+                color: white;
+            }
+
+            .podcast-content {
+                color: white;
+                font-size: 16px;
+                word-spacing: 3px;
+                line-height: 20px;
+                text-align: justify;
             }
         }
     }
@@ -113,6 +134,12 @@ body {
             .main-subtitle {
                 font-size: 26px;
                 text-align: unset;
+                margin-bottom: 10px;
+            }
+
+            .host {
+                font-size: 24px;
+                text-align: unset;
             }
 
             .main-logos {
@@ -144,6 +171,19 @@ body {
                     .article-description {
                         color: white;
                     }
+                }
+            }
+
+            .main-content-podcast {
+                .podcast-title {
+                    padding-top: 30px;
+                    font-size: 46px;
+                    margin-bottom: 40px;
+                }
+    
+                .podcast-content {
+                    font-size: 20px;
+                    line-height: 30px;
                 }
             }
         }
