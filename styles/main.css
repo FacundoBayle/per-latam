@@ -2,6 +2,10 @@ body {
   background-color: black;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main-container {
   max-width: 768px;
 }
@@ -26,11 +30,16 @@ body {
 .main-container .main-header .main-subtitle {
   color: white;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .main-container .main-header .host {
   color: white;
   text-align: center;
+}
+.main-container .main-header .host a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 .main-container .main-header .main-logos {
   padding-top: 20px;
@@ -41,6 +50,9 @@ body {
   cursor: pointer;
   width: 35px;
   height: 35px;
+}
+.main-container .main-content .main-content-articles {
+  margin-bottom: 70px;
 }
 .main-container .main-content .main-content-articles a {
   text-decoration: none;
@@ -67,6 +79,14 @@ body {
   word-spacing: 3px;
   line-height: 20px;
   text-align: justify;
+  margin-bottom: 100px;
+}
+.main-container .footer {
+  padding: 10px 0;
+}
+.main-container .footer .copyright {
+  color: white;
+  text-align: center;
 }
 
 @media (min-width: 380px) {
@@ -101,10 +121,10 @@ body {
   .main-container .main-header .main-subtitle {
     font-size: 26px;
     text-align: unset;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .main-container .main-header .host {
-    font-size: 24px;
+    font-size: 20px;
     text-align: unset;
   }
   .main-container .main-header .main-logos {
@@ -127,6 +147,8 @@ body {
   }
   .main-container .main-content .main-content-articles .article .article-description {
     color: white;
+    font-size: 20px;
+    line-height: 25px;
   }
   .main-container .main-content .main-content-podcast .podcast-title {
     padding-top: 30px;

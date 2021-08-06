@@ -2,6 +2,10 @@ body {
     background-color: black;
 }
 
+a {
+    text-decoration: none;
+}
+
 .main-container {
     max-width: 768px;
     
@@ -30,12 +34,18 @@ body {
         .main-subtitle {
             color: white;
             text-align: center;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
 
         .host {
             color: white;
             text-align: center;
+            
+            a {
+                text-decoration: none;
+                color: white;
+                cursor: pointer;
+            }
         }
 
         .main-logos {
@@ -53,6 +63,8 @@ body {
 
     .main-content {
         .main-content-articles {
+            margin-bottom: 70px;
+
             a {
                 text-decoration: none;
                 box-sizing: border-box;
@@ -85,7 +97,17 @@ body {
                 word-spacing: 3px;
                 line-height: 20px;
                 text-align: justify;
+                margin-bottom: 100px;
             }
+        }
+    }
+
+    .footer {
+        padding: 10px 0;
+
+        .copyright {
+            color: white;
+            text-align: center;
         }
     }
 }
@@ -134,11 +156,11 @@ body {
             .main-subtitle {
                 font-size: 26px;
                 text-align: unset;
-                margin-bottom: 10px;
+                margin-bottom: 20px;
             }
 
             .host {
-                font-size: 24px;
+                font-size: 20px;
                 text-align: unset;
             }
 
@@ -170,6 +192,8 @@ body {
     
                     .article-description {
                         color: white;
+                        font-size: 20px;
+                        line-height: 25px;
                     }
                 }
             }
